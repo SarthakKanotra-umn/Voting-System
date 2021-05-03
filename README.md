@@ -41,7 +41,7 @@ In addition to this, the winner will also be displayed to the screen on terminal
 
 To generate documentation, first build the project with `make` in the `project` directory.
 Next, navigate to `Voting-System/documentation` and run `doxygen Doxyfile`.
-Then open `project/documentation/html/index.html` in your web browser to view the documentation.
+Then open `documentation/html/index.html` in your web browser to view the documentation.
 
 * ON TERMINAL: 
     * $ cd Voting-System
@@ -98,6 +98,9 @@ To run google tests use the following command:
     * $ ./testing
 
 This will display the google unit tests on the terminal itself. 
+
+Run the command `make clean` - ($ make clean) on terminal to clean all
+executable files and repeat the process to re-test the Voting System.
 
 ### Verify Election Results
 
