@@ -1,6 +1,3 @@
-# repo-Team1
-Team1 (Alene, Leal, Oberstar, Kanotra)
-
 ## Introduction
 
 Welcome to the Voting System.
@@ -43,11 +40,11 @@ In addition to this, the winner will also be displayed to the screen on terminal
 ## Documentation 
 
 To generate documentation, first build the project with `make` in the `project` directory.
-Next, navigate to `project/documentation` and run `doxygen Doxyfile`.
+Next, navigate to `Voting-Ssystem/documentation` and run `doxygen Doxyfile`.
 Then open `project/documentation/html/index.html` in your web browser to view the documentation.
 
 * ON TERMINAL: 
-    * $ cd Project1
+    * $ cd Voting-System
     * $ cd documentation
     * $ doxygen Doxyfile
     * Navigate to the html folder and view documentation on your browser by clicking on `index.html`.
@@ -56,12 +53,8 @@ Then open `project/documentation/html/index.html` in your web browser to view th
 
 To run the voting system, the user must be in the correct directory:
 
-* ON TERMINAL: $ cd umn-csci-5801-s21-001/repo-Team001
-
-Then, on terminal, change directory into `Project1` and then into `src`:
-
 * ON TERMINAL: 
-    * $ cd Project1
+    * $ cd Voting-System
     * $ cd src
 
 Run the command: `make` on terminal in the src directory.
@@ -75,10 +68,10 @@ Following this, run the command: `./main`.
 You will be prompted with options to guide the user through it:
 
 * ">> help" will show the user how to load the election file in the system
-which must be in the same directory - Project1/src/<your-file.csv>
+which must be in the same directory - src/<your-file.csv>
 
 * ">> load" will prompt the user to enter the election filename - <filename.csv>. Once a valid election file has been found, the system will
-promp the user if they want to add more election files to the election. The user can type y (yes) or n (no). Once the user decides that they don't want to add more files by entering n (no) to the prompt, the system will compute the results of the election, displaying the results to the screen and creating an audit file.
+prompt the user if they want to add more election files to the election. The user can type y (yes) or n (no). Once the user decides that they don't want to add more files by entering n (no) to the prompt, the system will compute the results of the election, displaying the results to the screen and creating an audit file.
 
 * ">> quit" will exit out of the voting system.
 
