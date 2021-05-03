@@ -40,7 +40,7 @@ In addition to this, the winner will also be displayed to the screen on terminal
 ## Documentation 
 
 To generate documentation, first build the project with `make` in the `project` directory.
-Next, navigate to `Voting-Ssystem/documentation` and run `doxygen Doxyfile`.
+Next, navigate to `Voting-System/documentation` and run `doxygen Doxyfile`.
 Then open `project/documentation/html/index.html` in your web browser to view the documentation.
 
 * ON TERMINAL: 
@@ -83,13 +83,11 @@ executable files and repeat the process to re-run the Voting System.
 ### Run Google Unit Tests
 
 To run the google tests the user must follow these steps:
- ON TERMINAL: $ cd umn-csci-5801-s21-001/repo-Team001
+ ON TERMINAL: $ cd Voting-System
 
 On the terminal change directory to Project1 and then testing.
 
-* ON TERMINAL: 
-    * $ cd Project1
-    * $ cd testing
+ON TERMINAL: * $ cd testing
 
 Once in the testing directory you can run any of the test files.
 
@@ -106,7 +104,7 @@ This will display the google unit tests on the terminal itself.
 To verify the election itself, the tester can do the following: 
 
 * ON TERMINAL: 
-    * $ cd Project1
+    * $ cd Voting-System
     * $ cd src
     * $ make
     * $ ./main
